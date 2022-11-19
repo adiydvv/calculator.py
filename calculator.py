@@ -1,5 +1,5 @@
 x = float(input("Enter a number: "))
-op = input("Enter a operator(+, -, *, /, ^, sin, cos): ")
+op = input("Enter a operator(+, -, *, /, ^, sin, cos, tan): ")
 
 if op == "+":
     y = float(input("Enter second number: "))
