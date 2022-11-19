@@ -25,6 +25,8 @@ elif op == "sin":
 
 elif op == "cos":
     print(1 - x**2/2 + x**4/24 - x**6/720 + x**8/40320 - x**10/3628800 + x**12/479001600 - x**14/87178291200)
+elif op == "tan":
+    print(x + x**3/3 + 2*x**5/15 + 17*x**7/315 + 62*x**9/2835)
 
 else :
     print("invalid operator")
